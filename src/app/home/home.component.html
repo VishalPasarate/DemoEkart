@@ -1,0 +1,70 @@
+<!-- <ngb-carousel *ngIf="popularProducts">
+  <ng-template *ngFor="let item of popularProducts" ngbSlide>
+    <div class="picsum-img-wrapper">
+      <a routerLink="/details/{{item.id}}"> <img class="product-header-image" src="{{item.image}}"
+          alt="Random first slide">
+      </a>
+    </div>
+    <div class="carousel-caption">
+      <h3>{{item.name}}</h3>
+      <p>{{item.description}}</p>
+    </div>
+  </ng-template>
+</ngb-carousel> -->
+<br>
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item">
+      <img src="../../assets/1a326d2f48aaedf0.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item active">
+      <img src="../../assets/154412999617fcb2.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../../assets/3b040b8cc84dafe5.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../../assets/9c06db25774a1ea8.webp" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="../../assets/d6b8eb49acbc80a0.webp" class="d-block w-100" alt="...">
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+    data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+    data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="product-list-wrapper">
+  <h1 style="text-align: center;"><strong>All Products</strong></h1>
+  <div class="row">
+    <div class="col-sm-3" *ngFor="let item of trendyProducts">
+      <div class="product-item">
+        <img src="{{item.image}}" alt="">
+        <div class="product-details">
+          <h6 class="name-head">{{item.name}}</h6>
+          <div class="product-price">
+            <h6>Price:{{item.price}}</h6>
+          </div>
+          <div class="product-color">
+            <h6>Color:{{item.color}}</h6>
+          </div>
+        </div>
+        <div class="product-footer">
+          <button class="btn btn-primary" routerLink="/details/{{item.id}}" style="margin-left: 80px;">View Details</button>
+          <!-- <button class="btn btn-primary" routerLink="/details/{{item.id}}" >View Details</button> -->
+          <!-- <a routerLink="/details/{{item.id}}">View Details</a> -->
+          <!-- <a href="" style="color: blue;">Add to Cart</a> -->
+          <!-- <button class="btn btn-primary"(click)=addtocart(item)><a >Add to Cart</a></button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

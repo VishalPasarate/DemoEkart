@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,
+    td,
+    th {
+        border: 1px solid #555454;
+        border-collapse: collapse;
+    }
+
+    td,
+    th {
+        padding: 3px;
+        width: 30px;
+        height: 25px;
+    }
+
+    th {
+        background: #f0e6cc;
+    }
+
+    .even {
+        background: #fbf8f0;
+    }
+
+    .odd {
+        background: #fefcf9;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .strong {
+        font-weight: bold;
+    }
+
+    .dark-br {
+        border: 2px solid black;
+    }
+
+    .dark-br td {
+        border: 2px solid black;
+    }
+    body {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+
+<body>
+    <table style="width: 100%;">
+        <tbody style="text-align: center;">
+            <tr>
+                <td colspan="6"><strong>पनवेल महानगरपालिका, पनवेल</strong></td>
+            </tr>
+            <tr>
+                <td colspan="6">नमुना क्रमांक ६४</td>
+            </tr>
+            <tr>
+                <td colspan="6">(नियम क्र. १४७ ते १५६, १८१, २०८, २७०, ४६७, ४७५ पहा )</td>
+            </tr>
+            <tr>
+                <td colspan="6"><strong>कामे आणि पुरवठा याकरिता प्रदान प्रमाणक </strong></td>
+            </tr>
+            <tr>
+                <td colspan="6"><strong>भाग क </strong></td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table style="width: 100%;">
+        <tr>
+            <td>आर्थिक वर्ष </td>
+            <td></td>
+            <td>विभाग</td>
+            <td></td>
+            <td>बीसीआर नं.</td>
+            <td></td>
+        </tr>
+        <tr><td colspan="7"></td></tr>
+        <tr>
+            <td colspan="7"> कामाचे तपशील / वर्णन</td>
+        </tr>
+    </table>
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td>कामाचे तपशील दिनांक </td>
+                <td></td>
+                <td>कामाचे तपशील संख्या</td>
+                <td></td>
+                <td>बीसीआर नं.</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>कामाचे तपशील वर्णन</td>
+                <td colspan="5"></td>
+            </tr>
+            <tr>
+                <td>मूळ रक्कम</td>
+                <td></td>
+                <td>GST रक्कम</td>
+                <td></td>
+                <td><strong>एकूण</strong></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>विक्रेता तपशील</td>
+            </tr>
+            <tr>
+                <td>कंपनीचे नाव</td>
+                <td></td>
+                <td>GST नं.</td>
+                <td></td>
+                <td>पॅन कार्ड क्रमांक</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>संपर्क व्यक्ती</td>
+                <td></td>
+                <td>पदनाम</td>
+                <td></td>
+                <td>संपर्क क्रमांक</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>बँकेचे नाव</td>
+                <td></td>
+                <td>शाखा</td>
+                <td></td>
+                <td>IFSC क्रमांक</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>
+                    खात्याचे नाव</td>
+                <td></td>
+                <td>खाते क्रमांक</td>
+                <td></td>
+                <td>खात्याचे प्रकार  </td>
+                <td></td>
+            </tr>
+            <tr><td colspan="7"></td></tr>
+            <tr>
+                <td>बजेट तपशील</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td>बजेट हेड</td>
+                <td></td>
+                <td>बजेट खाते कोड</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>बजेट प्रकार</td>
+                <td></td>
+                <td>भाग</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>मोड अंमलबजावणी</td>
+                <td></td>
+                <td>कार्यालयाचे नाव</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table> -->
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td>बजेट हेड</td>
+                <td colspan="2"></td>
+                <td>बजेट खाते कोड</td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td>बजेट प्रकार</td>
+                <td colspan="2"></td>
+                <td>भाग</td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td>अंमलबजावणी मोड </td>
+                <td colspan="2"></td>
+                <td>कार्यालयाचे नाव</td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td>बजेट तरतूद</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td >सोडण्याची रक्कम</td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td >स्पिल ओव्हर </td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td>निव्वळ शिल्लक रक्कम</td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td>पुनर्विनियोग रद्द करा</td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td><strong>प्रभावी शिल्लक रक्कम</strong></td>
+                <td colspan="3"><strong></strong></td>
+            </tr>
+            <tr>
+                <td><strong>BCR एकूण कामाचे तपशील बुक केलेली रक्कम</strong></td>
+                <td colspan="3"><strong></strong></td>
+            </tr>
+            <tr>
+                <td><strong>एकूण तपशील बुक केलेली रक्कम</strong></td>
+                <td colspan="3"><strong></strong></td>
+            </tr>
+            <tr><td colspan="7"></td></tr>
+        </tbody>
+    </table>
+    
+    <table style="width: 100%;">
+        <tr>
+            <td>बिल तपशील</td>
+        </tr>
+        <tr>
+            <td>बिल प्रकार</td>
+            <td></td>
+            <td>इन्व्हॉईस क्रमांक</td>
+            <td></td>
+            <td>इन्व्हॉईस दिनांक </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>कामाचे तपशील रक्कम</td>
+            <td></td>
+            <td>देय रक्कम</td>
+            <td></td>
+            <td>शिल्लक रक्कम</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>इन्व्हॉईस मूळ रक्कम</td>
+            <td></td>
+            <td>इन्व्हॉईस GST रक्कम</td>
+            <td></td>
+            <td>इन्व्हॉईस एकूण रक्कम </td>
+            <td></td>
+            <tr><td colspan="7"></td></tr>
+        </tr>
+    </table>
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td colspan="5">कपात</td>
+            </tr>
+            <tr>
+                <td>कपात प्रकार</td>
+                <td>मोड प्रकार</td>
+                <td>मोड मूल्य</td>
+                <td>रक्कम</td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+        </tbody>
+    </table>
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td>एकूण कपातीची रक्कम रुपये</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>निव्वळ देय रक्कम रुपये</td>
+                <td></td>
+   
+            </tr>
+            <tr>
+                <td>निव्वळ देय रक्कम रुपये अक्षरात</td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <table style="width: 100%;">
+        <tr ><td colspan="7">मी मागणीची तपासणी केली ती अचूक असल्याचे आढळून आले आहे</td></tr>
+        <tr ><td colspan="7">प्रमाणित करतो की, देयकामध्ये दर्शविलेले दर आणि संख्या अचूक आहेत प्राप्त झालेले साहित्य, वस्तू विनिर्देशानुसार आहेत आणि चांगल्या दर्जाची आहेत आणि चांगल्या स्थितीत आहेत.</td></tr>
+        <tr>
+            <td>रुपये</td>
+            <td></td>
+            <td>अक्षरात</td>
+
+
+        </tr>
+        <tr>
+            <td></td>
+            <td>याकरिता प्रदान संमत केले.</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="text-align: center;"><strong>विभाग प्रमुखाची सही</strong></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="text-align: center;">पनवेल महानगरपालिका पनवेल</td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <!-- <td>देयक वरिलप्रमाणे अचूक असल्याची खात्री करुन शिफारशीसह मुख्य लेखा अधिकारी यांचेकडे सादर करण्यात येत आहे.</td> -->
+            <td colspan="7">देयक वरिलप्रमाणे अचूक असल्याची खात्री करुन शिफारशीसह मुख्य लेखा अधिकारी यांचेकडे सादर करण्यात येत आहे.</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td style="text-align: center;"><strong>सहायक आयुक्त ( &emsp;&emsp;&emsp;&emsp;)</strong></td>
+            <td></td>
+            <td style="text-align: center;"><strong>उप आयुक्त ( &emsp;&emsp;&emsp;&emsp;)</strong></td>
+            <td></td>
+            <td></td>
+            <td style="text-align: center;"><strong>अतिरिक्त आयुक्त</strong></td>
+
+        </tr>
+        <tr>
+            <td style="text-align: center;">पनवेल महानगरपालिका पनवेल</td>
+            <td></td>
+            <td style="text-align: center;">पनवेल महानगरपालिका पनवेल</td>
+            <td></td>
+            <td></td>
+            <td style="text-align: center;">पनवेल महानगरपालिका पनवेल</td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr style="text-align: center;">
+            <!-- <td>मी याद्वारे प्रमाणित करतो की, या प्रमाणकामध्ये नोंद केलेले सर्व तपशील अचूक आहेत.</td> -->
+            <td colspan="7">मी याद्वारे प्रमाणित करतो की, या प्रमाणकामध्ये नोंद केलेले सर्व तपशील अचूक आहेत.</td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td colspan="3">पडताळणी केली आणि अचूक असल्याचे आढळून आले</td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td style="text-align: center;"><strong>लेखापाल</strong></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="text-align: center;"><strong>मुख्य लेखा अधिकारी</strong></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td style="text-align: center;">पनवेल महानगरपालिका पनवेल</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="text-align: center;">पनवेल महानगरपालिका पनवेल</td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <!-- <td>मुख्य लेखा परिक्षकाकडे सादर करण्यात आले</td> -->
+            <td colspan="7" style="text-align: center;"><strong>मुख्य लेखा परिक्षकाकडे सादर करण्यात आले</strong></td>
+
+        </tr>
+        <tr>
+            <!-- <td>मी याद्वारे प्रमाणित करतो की, या प्रमाणकामध्ये नोंद केलेले सर्व तपशील अचूक आहेत.</td> -->
+            <td colspan="7" style="text-align: center;">मी याद्वारे प्रमाणित करतो की, या प्रमाणकामध्ये नोंद केलेले सर्व तपशील अचूक आहेत.</td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td colspan="3">पडताळणी केली आणि अचूक असल्याचे आढळून आले</td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="text-align: center;"><strong>मुख्य लेखापरिक्षक</strong></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="text-align: center;">पनवेल महानगरपालिका पनवेल</td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <!-- <td>अंतिम मंजूरीकरिता मा.आयुक्त/ मा. अतिरिक्त आयुक्त/ उप आयुक्त (             ) यांचेकडे सादर करण्यात आले.            दिनांक</td> -->
+            <td colspan="7" >अंतिम मंजूरीकरिता मा.आयुक्त/ मा. अतिरिक्त आयुक्त/ उप आयुक्त (  &emsp;&emsp;&emsp;&emsp;         ) यांचेकडे सादर करण्यात आले.            दिनांक</td>
+        </tr>
+        <tr>
+            <td colspan="2">देयकामध्ये दर्शविल्याप्रमाणे रक्कम अक्षरी रुपये</td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td>मंजूर करण्यात येत आहे.  अंकात</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+ 
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td style="text-align: center;">आयुक्त / अतिरिक्त. आयुक्त /उप आयुक्त</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td style="text-align: center;">पनवेल महानगरपालिका, पनवेल</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <!-- <td>लेखापुस्तिकामध्ये नोंद घेण्याकरिता लेखा विभागाकडे पुन्हा सादर करण्यात आले.  मी याद्वारे प्रमाणित करतो की, देय असणा-या रकमेची नोंद जर्नल प्रमाणक क्रमांक        दिनांक           द्वारे लेखा पुस्तकामध्ये घेण्यात आली.</td> -->
+            <td colspan="7" >&emsp; लेखापुस्तिकामध्ये नोंद घेण्याकरिता लेखा विभागाकडे पुन्हा सादर करण्यात आले.  मी याद्वारे प्रमाणित करतो की, देय असणा-या रकमेची नोंद जर्नल प्रमाणक क्रमांक</td>
+
+        </tr>
+        <tr>
+            <!-- <td>प्राप्त देयक नोंदवहीचा संदर्भ क्र.         अनुक्रमांक            दि.                     रोखीने/धनादेशाद्वारे दिले.  </td> -->
+            <td colspan="5" style="text-align: center;" >प्राप्त देयक नोंदवहीचा संदर्भ क्र. &emsp;&emsp;&emsp;&emsp; अनुक्रमांक  &emsp;&emsp;&emsp;&emsp; दि.                     रोखीने/धनादेशाद्वारे दिले. </td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td colspan="3">प्राप्त देयक नोंदवहीचा संदर्भ क्र.     &emsp;&emsp;&emsp;&emsp;     अनुक्रमांक     &emsp;&emsp;&emsp;&emsp;      दि.                   </td>
+
+        </tr>
+        <tr>
+            <td>  रोखीने/धनादेशाद्वारे  </td>
+            <td></td>
+            <td></td>
+            <td>दिले.  </td>
+            <td></td>
+            <td></td>
+
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="text-align: center;"><strong>मुख्य लेखाधिकारी</strong></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="text-align: center;">पनवेल महानगरपालिका पनवेल</td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <!-- <td>रोख प्रमुखाकडे सादर करण्यात आले.                  प्रमाणक क्रमांक</td> -->
+            <td colspan="7" style="text-align: center;">रोख प्रमुखाकडे सादर करण्यात आले. &emsp;&emsp;&emsp;&emsp; प्रमाणक क्रमांक</td>
+        </tr>
+        <tr>
+            <!-- <td>रोखीने / धनादेश क्रमांक.                         द्वारे दिनांक               दिनांक </td> -->
+            <td colspan="7" style="text-align: center;">रोखीने / धनादेश क्रमांक.       &emsp;&emsp;&emsp;&emsp;                   द्वारे दिनांक        &emsp;&emsp;&emsp;&emsp;        दिनांक </td>
+
+        </tr>
+        <tr>
+            <!-- <td>रोजी दिले आणि रोकड वही / बँक पुस्तक यामध्ये नोंद केली.</td> -->
+            <td colspan="7" style="text-align: center;">रोजी दिले आणि रोकड वही / बँक पुस्तक यामध्ये नोंद केली</td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td>निव्वळ देय रक्कम रु.</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="text-align: center;"><strong>रोखपाल</strong></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="text-align: center;">पनवेल महानगरपालिका पनवेल</td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td colspan="7" style="text-align: center;">पनवेल महानगरपालिका, पनवेल</td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td>अंकात रुपये</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td>अक्षरी रक्कम रुपये</td>
+
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td style="text-align: center;"><strong>प्राप्त करणा-याची सही</strong></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr ><td colspan="7">१. प्रदान प्रमाणकाला रोख प्रमुखाकडून क्रमांक देण्यात आले.</td></tr>
+        <tr ><td colspan="7">२. प्रथम देयक, चालू देयक आणि अंतिम देयक याकरिता प्रदान प्रमाणक तयार करतेवेळी, नियम ४३ मध्ये विहीत केलेल्या कार्यपध्दतीचे अनुपालन</td></tr>
+        <tr ><td colspan="7">३.वरील भाग ख मधील संख्या, दर युनिटे यांचे तपशील जेव्हा जेव्हा येतील तेव्हा तेव्हा त्यांची नोंद करण्यात येईल.</td></tr>
+    </table>
+</body>
+
+</html>
